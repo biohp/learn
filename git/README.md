@@ -1,18 +1,24 @@
-# 123
-
-```javascript
-  var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
-  }
-```
-## 技术栈
-
-vue2 + vuex + vue-router + webpack + ES6/7 + axios 
-
 ## 搭建步骤
 
-* 环境
-	1. node.js
+* 开发环境
+	* node.js
 	* [下载地址](https://nodejs.org/en/)
-	* 安装 [步骤](http://www.runoob.com/nodejs/nodejs-install-setup.html)
+	* [安装步骤](http://www.runoob.com/nodejs/nodejs-install-setup.html)
+	* 使用npm管理依赖关系 [npm使用](http://www.runoob.com/nodejs/nodejs-npm.html)
+	* npm速度不佳可使用cnpm或yarn [cnpm下载](http://npm.taobao.org/)
+* 开发工具
+	* git(可选项)
+	* [下载地址](https://git-scm.com/)
+	* [安装步骤](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000)
+* 脚手架
+	* vue-cli
+	* [安装与使用方法](https://www.npmjs.com/package/vue-cli)
+	* 构建项目 vue init webpack-simple myProjectName (webpack-simple 简洁版)
+* UI
+	* iview
+	* [安装与使用方法](https://www.iviewui.com/docs/guide/install)
+* 依赖
+	* vuex 组件间数据交互解决方案 [使用](https://vuex.vuejs.org/zh-cn/installation.html)
+	* vue-router 页面路由管理插件 [使用](https://router.vuejs.org/zh-cn/installation.html)
+	* axios 异步请求插件 [使用](https://www.kancloud.cn/yunye/axios/234845)
+	* babel-polyfill 兼容IE [使用](https://babeljs.io/docs/usage/polyfill/)
