@@ -19,6 +19,28 @@ npm run build
 
 vue2 + vuex + vue-router + webpack + ES6/7 + axios 
 
+## 目录结构
+* node_modules	项目依赖 
+* src
+	* assets 资源，存放公共img,js,css等等
+	* common 公共数据
+	* components 公共组件
+	* layouts 页面布局
+	* services api管理
+	* store vuex数据管理
+	* utils 工具包
+	* views 视图页面
+	* App.vue
+	* main.js 项目入口
+	* router.js 路由配置信息
+* .babelrc	es6解析es5配置信息
+* .editorconfig
+* .gitignore git上传过滤文件配置
+* index.html 
+* package-lock.json
+* package.json 包管理文件
+* README.md
+* webpack.config.js webpack配置信息
 
 ## 项目搭建
 
