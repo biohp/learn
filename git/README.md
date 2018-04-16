@@ -66,3 +66,18 @@ vue2 + vuex + vue-router + webpack + ES6/7 + axios
 	* vue-router 页面路由管理插件 [使用方法](https://router.vuejs.org/zh-cn/installation.html)
 	* axios 异步请求插件 [使用方法](https://www.kancloud.cn/yunye/axios/234845)
 	* babel-polyfill 兼容IE [使用方法](https://babeljs.io/docs/usage/polyfill/)
+
+## 打包注意事项
+
+``` javascript
+
+module.exports = {
+  entry: ["babel-polyfill", "./src/main.js"],
+  output: {
+    path: path.resolve(__dirname, './dist'),
+-    publicPath: '/dist/',
++    publicPath: './dist/',	
+    filename: 'build.js'
+  },
+
+```
