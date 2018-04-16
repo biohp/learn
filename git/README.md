@@ -26,8 +26,8 @@ vue2 + vuex + vue-router + webpack + ES6/7 + axios
 	* node.js
 	* [下载地址](https://nodejs.org/en/)
 	* [安装步骤](http://www.runoob.com/nodejs/nodejs-install-setup.html)
-	* 使用npm管理依赖关系 [npm使用](http://www.runoob.com/nodejs/nodejs-npm.html)
-	* npm速度不佳可使用cnpm或yarn [cnpm下载](http://npm.taobao.org/)
+	* 使用npm管理依赖关系	[npm使用](http://www.runoob.com/nodejs/nodejs-npm.html)
+	* npm速度不佳可使用cnpm或yarn	[cnpm下载](http://npm.taobao.org/)
 * 开发工具
 	* git(可选项)
 	* [下载地址](https://git-scm.com/)
