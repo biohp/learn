@@ -70,7 +70,7 @@ vue2 + vuex + vue-router + webpack + ES6/7 + axios
 ## 打包注意事项
 
 ``` javascript
-
+//webpack.config.js
 module.exports = {
   entry: ["babel-polyfill", "./src/main.js"],
   output: {
